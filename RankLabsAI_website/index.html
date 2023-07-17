@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RankLabs - A Powerful AI Tool For Startups</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+          rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+<header class="header" data-header>
+  <div class="container">
+
+    <a href="#">
+      <h1 class="logo">RankLabs</h1>
+    </a>
+
+    <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+      <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+      <ion-icon name="close-outline" class="close-icon"></ion-icon>
+    </button>
+
+    <nav class="navbar container">
+      <ul class="navbar-list">
+
+        <li>
+          <a href="#home" class="navbar-link" data-nav-link>Home</a>
+        </li>
+
+        <li>
+          <a href="#risks" class="navbar-link" data-nav-link>Risks</a>
+        </li>
+
+        <li>
+          <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+        </li>
+
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+
+
+
+
+<main>
+  <article>
+
+    <section class="hero" id="home">
+
+
+      <div class="hero-content">
+
+        <h2 class="hero-title">
+          <strong>RankLabs</strong> Is a powerful AI Tool
+        </h2>
+
+        <p class="hero-text">
+          Can make market analyse for your startup. For begin lets type the problem that your project solves.
+        </p>
+
+        <label class="input-container">
+          <input id="question_bar" type="text" name="quest" placeholder="Whats Your Problem?" required class="contact-input">
+          <a id="analyse" href="#risks" class="btn btn-primary blue">Analyse</a>
+        </label>
+
+
+      </div>
+
+
+    </section>
+
+    <!--
+      - #RISKS
+    -->
+
+    <section class="section risks" id="risks">
+      <div class="loading-spinner"></div>
+      <div id="risks_container">
+        <div class="container">
+
+          <p class="section-subtitle">Your Potential</p>
+
+          <h2 class="h2 section-title">No Pain No Gain!</h2>
+
+          <p class="section-text">
+            This part shows the potential of your project.
+          </p>
+
+          <li class="risks-list">
+
+          <li class="risks-item">
+            <div class="wrapper" style="width: 95%">
+              <h3 class=" risks-title">Potential</h3>
+
+              <div id="risk-data" class="risks-data"></div>
+            </div>
+
+            <div class="risks-progress-box">
+              <div class="risks-progress" id="risk-bar"></div>
+            </div>
+          </li>
+
+          </li>
+
+        </div>
+        <h2 class="h2 section-titletwo">Similar Projects</h2>
+        <div class="container">
+
+          <div class="hero-banner">
+            <div class="listed" id="similar1">
+              <div class="list-logo"></div>
+              <div class="desc"></div>
+              <div class="value"></div>
+            </div>
+            <div class="listed" id="similar2">
+              <div class="list-logo"></div>
+              <div class="desc"></div>
+              <div class="value"></div>
+            </div>
+            <div class="listed" id="similar3">
+              <div class="list-logo"></div>
+              <div class="desc"></div>
+              <div class="value"></div>
+            </div>
+            <div class="listed" id="similar4">
+              <div class="list-logo"></div>
+              <div class="desc"></div>
+              <div class="value"></div>
+            </div>
+            <div class="listed" id="similar5">
+              <div class="list-logo"></div>
+              <div class="desc"></div>
+              <div class="value"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <!--
+      - #CONTACT
+    -->
+
+    <section class="section contact" id="contact">
+      <div class="container">
+
+        <div class="contact-card">
+
+          <p class="card-subtitle">Don't be shy</p>
+
+          <h2 class="h2 section-title">Drop a Feedback</h2>
+
+          <div class="wrapper">
+
+            <form action="" class="contact-form">
+
+              <label>
+                <input type="text" name="name" placeholder="Name" required class="contact-input">
+              </label>
+
+              <label>
+                <input type="email" name="email" placeholder="Email" required class="contact-input">
+              </label>
+
+              <label>
+                <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
+              </label>
+
+              <button type="submit" class="btn-submit">Submit Message</button>
+
+            </form>
+
+            <ul class="contact-list">
+
+
+              <li class="contact-item">
+
+                <div class="contact-icon">
+                  <ion-icon name="mail"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="contact-item-title">Email</h3>
+
+                  <a href="mailto:info@ranklabs.ai" class="contact-item-link">info@ranklabs.ai</a>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </article>
+</main>
+<!--
+  - #FOOTER
+-->
+
+<footer class="footer">
+  <div class="container">
+
+    <p class="copyright">
+      &copy; 2023 <a href="#" class="copyright-link">RankLabsAI</a>. All Rights Reserved
+    </p>
+
+  </div>
+</footer>
+
+
+
+
+
+<!--
+  - #BACK TO TOP
+-->
+
+<a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+
+
+
+
+<!--
+  - custom js link
+-->
+<script src="./assets/js/script.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
