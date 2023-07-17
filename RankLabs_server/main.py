@@ -12,7 +12,7 @@ from flask_cors import CORS
 import openai
 
 # noinspection SpellCheckingInspection
-openai.api_key = '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'
+openai.api_key = 'api-key'
 
 # Read the CSV file into a Pandas DataFrame
 df = pd.read_csv('./output.csv')
